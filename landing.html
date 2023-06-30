@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="icon" href="/images/favicon-.png" type="image/png" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="./formulario.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="landing.css">
-    <title>Landing-OSOJI</title>
+
+    <title>OSOJI</title>
 </head>
 
 <body>
@@ -33,12 +35,12 @@
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                         <div class="navbar-nav">
-                                            <a href="#qesosoji" class="btn btn-header btn-lg me-4" role="button"
-                                                aria-disabled="true">¿QUÉ ES OSOJI?</a>
-                                            <a href="#aosoji" class="btn btn-header btn-lg  me-4" role="button"
+                                            <a href="#acosoji" class="btn btn-header btn-lg me-4" role="button"
                                                 aria-disabled="true">ACERCA DE OSOJI</a>
-                                            <a href="#juego" class="btn btn-header btn-lg me-4" role="button"
+                                            <a href="#juego" class="btn btn-header btn-lg  me-4" role="button"
                                                 aria-disabled="true">SOBRE EL JUEGO</a>
+                                            <a href="#contacto" class="btn btn-header btn-lg me-4" role="button"
+                                                aria-disabled="true">CONTACTO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -48,258 +50,296 @@
                 </div>
             </div>
         </div>
-        <!--  HEADER -->
+        <!--HEADER -->
 
         <!-- SECCIÓN #1 -->
         <div class="container mb-2">
             <div class="row">
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center mt-3">
-                    <div class="text-center">
-                        <h1 class="titulos">Racoon: a cleaning adventure by OSOJI </h1>
-                        <p class="textos">Disfruta de las misiones de limpieza de Racoon y Powolf en los suburbios de
+                    <div class="text-center" data-aos="fade-down-right">
+                        <h1 class="titulo-juego">Racoon: a cleaning adventure by OSOJI </h1>
+                        <p class="textos">Disfruta de las misiones de limpieza con Racoon y Powolf en los suburbios de
                             Clean Island (Barrio 111).</p>
-                        <a href="#" class="btn btn-lg me-4 mb-3 btn-j" role="button" aria-disabled="true">JUGAR</a>
+                        <a href="https://evelinlozano.itch.io/videojuego-by-osoji" class="btn btn-lg me-4 mb-3 btn-j" role="button" aria-disabled="true">JUGAR</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 fondo">
-                    <div class="fondo">
-                        <img class="img-fluid" src="./images/fondo.png" alt="">
+                    <div class="fondo-3">
+                        <img class="img-fluid" src="./images/fondo.png" data-aos="fade-up" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- SECCIÓN #1 -->
+        <!--SECCIÓN #1 -->
 
         <!-- SECCIÓN #2 -->
-        <div class=" linea p-1"></div>
+        <div class=" linea- p-1" id="acosoji"></div>
         <div class="container">
-            <div class="row  d-flex justify-content-center align-items-center p-4" id="qesosoji">
-                <div class="col-12 col-lg-3">
-                    <h1 class="titulos mt-2 text-center">¿QUÉ ES OSOJI?</h1>
+            <div class="row  d-flex justify-content-center align-items-center p-4">
+                <div class="col-12 col-lg-4">
+                    <h1 class="titulo-juego mt-2 mb-2 text-center">ACERCA DE OSOJI</h1>
+                    <p class=" art">
+                        Artículo 111: Comportamientos contrarios a la limpieza,
+                        recolección de residuos, escombros y malas prácticas habitacionales.
+                    </p>
                 </div>
                 <div class="col-12 col-lg-3 d-flex justify-content-center mt-3 mb-3">
                     <img src="./images/logo-desarrollo.png" alt="">
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-5">
                     <h1 class="titulos">OSOJI: Artículo 111</h1>
                     <h2 class="subtitulos">código de policía de Colombia</h2>
-                    <p class="textos">OSOJI se crea como método para el aprendizaje de el artículo 111 del código de
-                        policía de colombia.Nos centramos en potenciar el aprendizaje del artículo 111 del código de
-                        polColombia a través de la participación multidireccional entre los usuarios y ehabilidades en
-                        ellos, con el afán de promover la cultura ciudadana.</p>
+                    <p class="textos">OSOJI se crea como método de aprendizaje del artículo 111 del código de
+                        policía de Colombia.</p>
                 </div>
             </div>
         </div>
-        <div class=" text-center art linea linea p-1">Artículo 111: Comportamientos contrarios a la limpieza y
-            recolección de residuos y escombros y malas prácticas habitacionales</div>
-        <!-- SECCIÓN #2 -->
+        <!--SECCIÓN #2 -->
 
         <!-- SECCIÓN #3 -->
-        <div>
-            <div class="container p-5">
+        <div class="linea p-2" id="juego">
+            <h1 class="titulo-lineas text-center align-text-center">NUESTROS CONCEPTOS DE MARCA</h1>
+        </div>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class=" mb-2 d-flex justify-content-center">
+                                    <img src="./images/interactivo.png" width="90">
+                                </div>
+                                <h3 class="titulos text-center">INTERACTIVIDAD</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p class="pt-5 textos text-center">Impulsa tu aprendizaje de una forma única y
+                                    diferente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class=" mb-2 d-flex justify-content-center">
+                                    <img src="./images/desarrollo-de-habilidades.png" width="90">
+                                </div>
+                                <h3 class="titulos text-center">DESARROLLO DE HABILIDADES</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p class="pt-5 textos text-center">Juega mientras mejoras tus capacidades para
+                                    planificar, organizar, llevarte bien con los demás y regular tus emociones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class=" mb-2 d-flex justify-content-center">
+                                    <img src="./images/profesor.png" width="90">
+                                </div>
+                                <h3 class="titulos text-center">EDUCABILIDAD</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p class="pt-5 textos text-center">Aprende a través de las capacidades para
+                                    perfeccionar conductas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECCIÓN #3 -->
+        
+        <!--  SECCIÓN #4 -->
+        <div class="container-fluid fondo2 p-4 mb-4">
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <div class=" mb-2 d-flex justify-content-center">
-                                        <img src="./images/interactivo.png" width="90">
-                                    </div>
-                                    <h3 class="titulos text-center">INTERACTIVIDAD</h3>
-                                </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                        <div class="text-center mb-3">
+                            <h1 class="titulos">Racoon: a cleaning adventure by OSOJI </h1>
+                            <p class="textos">Explora, limpia y aporta al cambio en los espacios
+                                contaminados de los suburbios de Clean Island (Barrio 111).</p>
+                                <a href="https://evelinlozano.itch.io/videojuego-by-osoji" class="btn btn-lg me-4 mb-2 btn-j" role="button" aria-disabled="true">JUGAR</a>
                             </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <p class="pt-5 textos text-center">Impulsa tu aprendizaje de una forma única y
-                                        diferente.</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <div class=" mb-2 d-flex justify-content-center">
-                                        <img src="./images/desarrollo-de-habilidades.png" width="90">
-                                    </div>
-                                    <h3 class="titulos text-center">DESARROLLO DE HABILIDADES</h3>
-                                </div>
-                            </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <p class="pt-5 textos text-center">Juega mientras mejoras tus capacidades para
-                                        planificar, organizar, llevarte bien con los demás y regular tus emociones.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4 mb-3 d-flex justify-content-center">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <div class=" mb-2 d-flex justify-content-center">
-                                        <img src="./images/profesor.png" width="90">
-                                    </div>
-                                    <h3 class="titulos text-center">EDUCABILIDAD</h3>
-                                </div>
-                            </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <p class="pt-5 textos text-center">Aprende através de las capacidades, para
-                                        perfeccionar conductas.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-12 col-lg-6">
+                        <video class="img-fluid" src="./images/TeasernOSOJI.mp4" controls></video>
                     </div>
                 </div>
             </div>
-            <!-- SECCIÓN #3 -->
+        </div>
+        <!-- SECCIÓN #4 -->
+        
+        <!--  SECCIÓN #5 -->
+        <div class="linea p-2" id="juego">
+            <h1 class="titulo-lineas text-center align-text-center">SOBRE EL JUEGO</h1>
+        </div>
+        <div class="container p-4">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-lg-5">
+                    <h1 class="titulos text-center mb-3">OBJETIVO DEL JUEGO</h1>
+                    <p class="textos">El jugador debe ejecutar misiones de clasificación y recolección de residuos en los espacios del Barrio 111, superando los diferentes obstáculos y generando el menor número de multas posibles durante la misión. Las misiones enseñarán al usuario la clasificación y disposición de los residuos. Además, se aplicará un método de multas que enseñará a los usuarios el correcto acatamiento del artículo 111 del Código de Policía de Colombia.                     
+                    </p>
+                </div>
+                <div class="col-12 col-lg-7 d-flex justify-content-center mt-3 mb-4">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class=" car carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/Landing-OSOJI/images/slider-1.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/Landing-OSOJI/images/slider-2.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/Landing-OSOJI/images/slider-3.jpg" class="img-fluid" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--  SECCIÓN #5 -->
 
-            <!--  SECCIÓN #4 -->
-            <div class="footer p-2" id="aosoji">
-                <h1 class="titulos text-center align-text-center">ACERCA DE OSOJI</h1>
-            </div>
-            <div class="container p-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-12 col-lg-4">
-                        <h1 class="titulos text-center">MISIÓN</h1>
-                        <p class="textos">Enseñar el artículo 111 del código de policía a través de una estrategia
-                            multimedia que comprende un juego web como modelo de enseñanza para el correcto acato de
-                            dicho artículo.
-                        </p>
+        <!--  SECCIÓN #6 -->
+        <div class="linea p-2">
+            <h1 class="titulo-lineas text-center align-text-center">PERSONAJES</h1>
+        </div>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <img class="product-image " data-aos="fade-down-right" src="./images/Powolf.png" alt="">
                     </div>
-                    <div class="col-12 col-lg-4 d-flex justify-content-center mt-3 mb-4">
-                        <img class="img-vym" src="./images/imagen-myv.png" alt="">
+                    <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
+                        data-bs-target="#ModalPowolf">
+                        <a class="btn btn-lg btn-j" role="button" aria-disabled="true">POWOLF</a>
                     </div>
-                    <div class="col-12 col-lg-4">
-                        <h1 class="titulos text-center">VISIÓN</h1>
-                        <p class="textos">Ser una marca bien posicionada en Colombia con respecto a la correcta
-                            enseñanza del acato del artículo 111 del código de policía de Colombia mediante una
-                            estrategia multimedia efectiva.
-                        </p>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mb-4">
+                    <div class="d-flex justify-content-center">
+                        <img class="product-image " data-aos="fade-up" src="./images/Golem.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
+                        data-bs-target="#ModalGolem">
+                        <a class="btn btn-lg btn-j" role="button" aria-disabled="true">GOLEM</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <img class="product-image " data-aos="fade-down-left" src="./images/Racoon.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
+                        data-bs-target="#ModalRacoon">
+                        <a class="btn btn-lg btn-j" role="button" aria-disabled="true">RACOON</a>
                     </div>
                 </div>
             </div>
-            <!--  SECCIÓN #4 -->
+        </div>
 
-            <!--  SECCIÓN #5 -->
-            <div class="container-fluid fondo2 p-4 mb-4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                            <div class="text-center mb-3">
-                                <h1 class="titulos">Racoon: a cleaning adventure by OSOJI </h1>
-                                <p class="textos">Explora, limpia y aporta a el cambio en los contaminados espacios
-                                    públicos de los suburbios de Clean Island (Barrio 111) con Racoon y Powolf.</p>
-                                <a class="btn btn-lg me-4 mb-2 btn-j" role="button" aria-disabled="true">JUGAR</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <video class="img-fluid" src="./images/TeasernOSOJI.mp4" controls></video>
-                        </div>
+        <!-- Powolf -->
+        <div class="modal fade" id="ModalPowolf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 titulo-modal" id="ModalPowolf">CONOCE SOBRE POWOLF</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </div>
-            </div>
-            <!--  SECCIÓN #5 -->
-
-            <!--  SECCIÓN #6 -->
-            <div class="footer p-2" id="juego">
-                <h1 class="titulos text-center align-text-center">PERSONAJES</h1>
-            </div>
-            <div class="container p-5">
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div class="d-flex justify-content-center">
-                            <img class="product-image" src="./images/Powolf.png" alt="">
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="./images/Powolf-2.png" alt="">
                         </div>
-                        <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal1">
-                            <a class="btn btn-lg btn-j" role="button" aria-disabled="true">POWOLF</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4 mt-4 mb-4">
-                        <div class="d-flex justify-content-center">
-                            <img class="product-image" src="./images/Golem.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal2">
-                            <a class="btn btn-lg btn-j" role="button" aria-disabled="true">GOLEM</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="d-flex justify-content-center">
-                            <img class="product-image" src="./images/Racoon.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal3">
-                            <a class="btn btn-lg btn-j" role="button" aria-disabled="true">RACOON</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--         inicio ventana modal POWOLF  -->
-            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title titulos fs-5" id="exampleModalLabel">CONÓCEME: POWOLF</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="art">Es un lobo común, es el personaje secundario de nuestro videojuego con
-                                grandes habilidades de detención de gases tóxicos.</p>
-                        </div>
+                        <p class="textos pt-3">Es un lobo común, es el personaje secundario de nuestro videojuego con
+                            grandes habilidades de detención de gases tóxicos.</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-lg btn-j" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-header" data-bs-dismiss="modal">CERRAR</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!--       fin ventana modal  -->
-        <!--    inicio ventana modal GOLEM  -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- racoon -->
+        <div class="modal fade" id="ModalGolem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title titulos fs-5" id="exampleModalLabel">CONÓCEME: GOLEM</h1>
+                        <h1 class="modal-title fs-5 titulo-modal" id="ModalGolem">CONOCE SOBRE EL GOLEM</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p class="art">Es un monstruo de desechos tóxicos que ha tomado vida propia, es el villano de
-                            nuestro videojuego con habilidades para la propagación de la contaminación.</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="./images/Golem-2.png" alt="">
+                        </div>
+                        <p class="textos pt-3">Es un monstruo de desechos tóxicos que ha tomado vida propia, es el villano de nuestro videojuego con habilidades para la propagación de la contaminación.</p>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-lg btn-j" data-bs-dismiss="modal">Cerrar</button>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-header" data-bs-dismiss="modal">CERRAR</button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <!--  fin ventana modal -->
-        <!-- inicio ventana modal RACOON -->
-        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- golem -->
+        <div class="modal fade" id="ModalRacoon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title titulos fs-5" id="exampleModalLabel">CONÓCEME: RACOON</h1>
+                        <h1 class="modal-title fs-5 titulo-modal" id="ModalRacoon">CONOCE SOBRE RACOON</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p class="art">Es un mapache de la especie boreal o común, el personaje principal de nuestro
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="./images/Racoon-2.png" alt="">
+                        </div>
+                        <p class="textos pt-3">Es un mapache de la especie boreal o común, el personaje principal de nuestro
                             videojuego con grandes habilidades de olfato y tacto.</p>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-lg btn-j" data-bs-dismiss="modal">Cerrar</button>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-header" data-bs-dismiss="modal">CERRAR</button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <!--  fin ventana modal  -->
         <!--  SECCIÓN #6 -->
+        <div class=" linea- p-1" id="contacto"></div>
+        <!--  SECCIÓN #7 -->  
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                        <div>
+                            <img src="./images/isologonegativo-300x300.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                        <h1 class="titulos text-center align-text-center mb-4">CREADORAS</h1>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center mb-3">
+                        <img src="./images/Logo-Negativo-300x300.png" alt="">
+                    </div>
+                </div>
+            </div>
+        <!--  SECCIÓN #7 -->    
 
         <!--  FOOTER -->
         <footer class="footer p-4">
@@ -311,15 +351,13 @@
                         <section class="mb-4 d-flex justify-content-center">
                             <img class="icons-footer me-4" src="./images/iconos/icon-facebook.png" alt="">
                             <img class="icons-footer me-4" src="./images/iconos/icon-instagram.png" alt="">
-                            <img class="icons-footer me-4" src="./images/iconos/icon-whatsapp.png" alt="">
                             <img class="icons-footer me-4" src="./images/iconos/icon-tiktok.png" alt="">
-                            <img class="icons-footer" src="./images/iconos/icon-youtube.png" alt="">
                         </section>
                         <div class="text-center">
                             <a class="emails me-2"
-                                href="mailto:pcastrillon083@gmail.com? subject=subject text">pcastrillon083@gmail.com</a>
+                                href="mailto:andreacastrilllonmunoz@gmail.com? subject=subject text">andreacastrilllonmunoz@gmail.com</a>
                             <a class="emails"
-                                href="mailto:evelinlozano163@gmail.com? subject=subject text">evelinlozano163@gmail.com</a>
+                                href="mailto:lozanohurtadoevelin@gmail.com? subject=subject text">lozanohurtadoevelin@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 mt-3">
@@ -340,8 +378,8 @@
                                     placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1"></label>
-                                <input type="password" class="form-control textos" id="pwd" placeholder="Contraseña">
+                                <label for="exampleInputMsj1"></label>
+                                <textarea type="textarea" class="form-control textos" id="msj" placeholder="Mensaje"></textarea>
                             </div>
                             <button type="submit" class="btn btn-lg btn-j p-2 mt-3 ">ENVIAR</button>
                         </form>
@@ -349,11 +387,17 @@
                 </div>
             </div>
         </footer>
-        <div class="linea p-1 mt-4 mb-4 subtitulos text-center"> OSOJI 2023</div>
+        <div class="linea p-1 mt-4 mb-4 titulos text-center"> OSOJI 2023</div>
         <!--  FOOTER -->
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:2000,
+        });
+    </script>
 </body>
 
 </html>
